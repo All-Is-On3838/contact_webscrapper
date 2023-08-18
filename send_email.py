@@ -18,9 +18,9 @@ def error_email(note):
     message = Mail(
         from_email='Results@testandgo.com',
         to_emails= 'ali@lts.com',
-        subject='Jofemar Event Import Error',
+        subject='NASEN Contact Scrapper Error',
         html_content=f'''
-                    <p>Issue with Jofemar Event Import code has occured. {note} Please check logs.</p>
+                    <p>Issue with code has occured. {note} Please check logs.</p>
                     '''
     )
     try:
